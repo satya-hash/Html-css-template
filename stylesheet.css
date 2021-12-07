@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 600px;
+    height: 550px;
+    margin: 100px auto;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    box-shadow: 0 0 10px #6b6c6d ;
+}
+.one{
+    background-color: #fff;
+    grid-area: 1/1/2/4;
+    padding: 35px;
+    border-radius: 10px;
+
+}
+.one h1{
+    color:#2AB2B1 ;
+    margin: 10px 0;
+}
+.one h4{
+    color: #BFDF32;margin: 10px 0;
+}
+.one p{
+    color: #4ABEBD;margin: 10px 0;
+}
+.two{
+    color: #fff;
+    background-color: #2AB2B1;
+    grid-area: 2/1/3/2;
+    padding: 35px;
+    border-radius: 0 0 0 10px;
+}
+.two h1,.two h4,.two p{
+    margin: 10px 0;
+}
+.two button{
+    margin-top: 10px;
+    background-color: #BFDF32;
+    width: 100%;
+    color: #fff;
+    padding: 13px;
+}
+.two span{
+    opacity: 75%;
+}
+.three{
+    background-color: #4ABEBD;
+    color: #fff;
+    grid-area: 2/2/3/3;
+    padding: 35px;
+    border-radius:0 0 10px;
+}
+.three h4,.three p{
+    margin: 10px 0;
+}
+.three p{
+    opacity: 75%;
+}
